@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/imgs/background-fish2.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+li {
+    list-style: inside;
+}
+
+.prof-img {
+    border-radius: 20%;
+    border: solid 4px;
+    border-color: blue;
+    width: 250px;
+    object-fit: cover;  
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.item-box {
+    padding: 0 0 20px 0;
+}
+
+.item {
+    border-left: solid 10px;
+    border-bottom: solid 1px;
+    color: blue;
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+
+footer {
+    padding: 40px 0;
+    font-size: small;
+    text-align: center;
+}
